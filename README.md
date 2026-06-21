@@ -81,6 +81,15 @@ The published project URL should look like:
 https://ldodds-dev.github.io/legalix.github.io/
 ```
 
+## Privacy Notes
+
+This is a static showcase. The demo runs in the browser and does not submit user data, store user input, or require a backend service.
+
+## Related Links
+
+- Project showcase: https://ldodds-dev.github.io/legalix.github.io/
+- MVP site: https://github.com/ldodds-dev/legalix-mvp
+  
 ## Intellectual Property
 
 Copyright (c) 2026 Lynda Dodds. All rights reserved.
@@ -99,10 +108,3 @@ Source code may be licensed separately if a `LICENSE` file is provided.
 
 Legalix(TM) brand assets, logos, images, product concepts, written content, and visual identity are not included in any open-source license and remain all rights reserved.
 
-## Privacy Notes
-
-This is a static showcase. The demo runs in the browser and does not submit user data, store user input, or require a backend service.
-
-## Related Links
-
-- Project repository link in showcase: https://github.com/ldodds-dev/legalix-mvp
