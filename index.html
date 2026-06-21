@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Legalix | AI Grant Writing Assistant for Nonprofits</title>
+    <meta
+      name="description"
+      content="Executive AI showcase for Legalix, a grant writing assistant for nonprofits."
+    >
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header class="topbar" aria-label="Legalix navigation">
+      <a class="brand" href="#top" aria-label="Legalix home">
+        <span class="brand-mark" aria-hidden="true">
+          <img src="./assets/legalix-logo.png" alt="">
+        </span>
+        <span>Legalix</span>
+      </a>
+      <nav aria-label="Page sections">
+        <a href="#demo">Live demo</a>
+        <a href="#value">Value</a>
+        <a href="https://github.com/ldodds-dev/legalix-mvp" target="_blank" rel="noreferrer">GitHub</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero cover-hero" aria-labelledby="hero-title">
+        <img
+          class="hero-image"
+          src="./assets/legalix-cover.png"
+          alt="Legalix cover image showing AI-powered legal intelligence on a laptop with scales of justice and legal research benefits"
+        >
+        <div class="hero-overlay" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <h1 id="hero-title" class="sr-only">Legalix Grant Writing Assistant for Nonprofits</h1>
+        </div>
+      </section>
+
+      <section class="executive-strip" aria-label="Legalix summary">
+        <article>
+          <span>Primary user</span>
+          <strong>Nonprofit grant teams</strong>
+        </article>
+        <article>
+          <span>Core workflow</span>
+          <strong>Draft, align, review, reuse</strong>
+        </article>
+        <article>
+          <span>Public view</span>
+          <strong>No local network details displayed</strong>
+        </article>
+      </section>
+
+      <section class="brand-section" aria-label="Legalix logo direction">
+        <div class="brand-card">
+          <img src="./assets/legalix-logo.png" alt="Legalix logo, a stylized legal column and letterform">
+          <div>
+            <p class="eyebrow">Brand system</p>
+            <h2>Executive grant intelligence shaped around the Legalix mark</h2>
+            <p>
+              The showcase uses the logo&apos;s legal-column geometry, deep blue authority, and formal
+              structure as the basis for a polished nonprofit grant operations experience.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="demo" class="section demo-section" aria-labelledby="demo-title">
+        <div class="section-copy">
+          <p class="eyebrow">Live product demo</p>
+          <h2 id="demo-title">Grant readiness console</h2>
+          <p>
+            Adjust the readiness signals to see how Legalix can turn proposal inputs into an executive
+            funding-fit snapshot. The demo is local to this page and does not transmit data.
+          </p>
+        </div>
+
+        <div class="demo-shell">
+          <div class="controls" aria-label="Grant readiness inputs">
+            <label>
+              Funder alignment
+              <input id="alignment" type="range" min="40" max="100" value="86">
+            </label>
+            <label>
+              Evidence strength
+              <input id="evidence" type="range" min="40" max="100" value="78">
+            </label>
+            <label>
+              Budget clarity
+              <input id="budget" type="range" min="40" max="100" value="72">
+            </label>
+            <label>
+              Narrative voice
+              <input id="voice" type="range" min="40" max="100" value="91">
+            </label>
+          </div>
+
+          <div class="readiness-card" aria-live="polite">
+            <div class="score-ring" aria-label="Funding-fit score">
+              <span id="score">82</span>
+              <small>Fit score</small>
+            </div>
+            <div>
+              <h3 id="rating">Strong grant candidate</h3>
+              <p id="recommendation">
+                Prioritize final outcomes language and tighten budget justification before submission.
+              </p>
+              <ul id="demo-notes"></ul>
+            </div>
+          </div>
+
+          <canvas id="legalix-canvas" width="900" height="420" aria-label="Animated grant document intelligence preview"></canvas>
+        </div>
+      </section>
+
+      <section id="value" class="section value-section" aria-labelledby="value-title">
+        <div class="section-copy">
+          <p class="eyebrow">Executive value</p>
+          <h2 id="value-title">Built for nonprofit grant operations</h2>
+        </div>
+        <div class="value-grid">
+          <article>
+            <span>01</span>
+            <h3>Proposal intelligence</h3>
+            <p>Converts program details, outcomes, and evidence into funder-aligned proposal structure.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Reusable assets</h3>
+            <p>Helps teams maintain mission language, program summaries, and impact statements for future grants.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Review confidence</h3>
+            <p>Surfaces weak spots before submission: budget clarity, evidence, alignment, and narrative consistency.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>Legalix AI Showcase</span>
+      <a href="https://github.com/ldodds-dev/legalix-mvp" target="_blank" rel="noreferrer">ldodds-dev/legalix-mvp</a>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
