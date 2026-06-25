@@ -3,7 +3,7 @@
 
 ## Smarter Legal Research. Stronger Decisions.
 
-![Legalix Cover](public/Legalix-Official-Logo.png)
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/51f6f964-5fbd-4b39-8a2c-3577464f78bc" />
 
 **Legalix™** is an AI-powered legal productivity and document-intelligence platform designed to help users organize matters, prepare research, structure drafts, review evidence, and manage important legal or administrative workflows through a clean, matter-based workspace.
 
@@ -17,6 +17,8 @@ This project is a MVP public showcase demonstrating the Legalix product concept,
 
 Legalix is built as a modern SaaS-style platform for legal productivity, research preparation, drafting support, evidence organization, deadline awareness, etc.
 
+<img width="1215" height="743" alt="Screenshot 2026-06-24 at 11 30 28 PM" src="https://github.com/user-attachments/assets/c47e36ec-e0f2-4937-8571-71d36f385a98" />
+
 The current MVP focuses on U.S.-based legal productivity workflows, with an emphasis on:
 
 * Case organization
@@ -26,6 +28,8 @@ The current MVP focuses on U.S.-based legal productivity workflows, with an emph
 * Deadline tracking
 * Jurisdiction-aware workspace design
 * Review-ready document support
+
+<img width="781" height="480" alt="Screenshot 2026-06-24 at 11 39 34 PM" src="https://github.com/user-attachments/assets/679079ee-a870-43e5-a367-c2d037ebd277" />
 
 Legalix also includes a grant-readiness and document-intelligence showcase for nonprofit and administrative workflows, demonstrating how the platform can support structured proposal review, document preparation, and executive-ready decision support.
 
